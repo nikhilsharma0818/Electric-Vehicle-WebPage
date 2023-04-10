@@ -1,0 +1,172 @@
+/* Set body background color to light yellow */
+body {
+    background-color: #ffdbac;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #ffcc00;
+    padding: 20px;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ff6600;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #ff9933;
+  }
+  
+  /* Style the hero section */
+  #hero {
+    background-color: #ffe6bf;
+    padding: 50px;
+  }
+  
+  /* Style the programs section */
+  #programs {
+    background-color: #ffe6bf;
+    padding: 50px;
+  }
+  
+  /* Style the contact section */
+  #contact {
+    background-color: #ffe6bf;
+    padding: 50px;
+  }
+  
+  /* Style the form */
+  form {
+    margin-top: 20px;
+    border: 2px solid #ffcc00;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #ff9933;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+  }
+  .logo {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    height: 60px;
+    width: auto;
+  }
+  #gallery {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .image-container img {
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #project {
+    background-color: #fff7e6;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #project h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff7f50;
+  }
+  
+  #project ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #project ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  #project p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #project ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
